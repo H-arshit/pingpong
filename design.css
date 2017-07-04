@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+
+	background-image: url('https://media.giphy.com/media/qFR8t2kZZtRkc/giphy.gif');
+	background-size: cover;
+
+
+
+	height: 100vh;
+	width: 100vw;
+}
+
+
+#ball{
+
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: fixed;
+	top: 300px;
+	left: 500px;
+	background-color: red;
+}
+
+
+
+#leftpuck{
+
+	width: 30px;
+	height: 150px;
+	/*border-radius: 50px;*/
+	position: fixed;
+	top: 300px;
+	left: 0px;
+	background-color: green;
+
+}
+
+#rightpuck{
+
+	width: 30px;
+	height: 150px;
+	/*border-radius: 50px;*/
+	position: fixed;
+	top: 300px;
+	right: 0px;
+	background-color: green;
+
+}
